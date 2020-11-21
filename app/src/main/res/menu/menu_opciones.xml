@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_about"
+        android:title="@string/men_about"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        ></item>
+    <item android:id="@+id/menu_contacto"
+        android:title="@string/men_contacto"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:id="@+id/mascotas_liked"
+        android:icon="@drawable/estrella"
+        android:title="@string/mascotas_liked"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"/>
+
+</menu>

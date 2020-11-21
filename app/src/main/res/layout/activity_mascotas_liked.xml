@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+
+
+    <include android:id="@+id/actBar"
+        layout="@layout/action_bar"
+        ></include>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyc_like"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actBar">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_perfil"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/perro_1"
+        android:layout_below="@+id/actBar"></ImageView>
+    <TextView
+        android:id="@+id/texto_perfil"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="Nombre Mascota"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/actBar"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/texto_perfil">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
